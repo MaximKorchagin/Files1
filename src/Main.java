@@ -33,9 +33,9 @@ public class Main {
             sb.append("Создана директория test в подкаталоге src\n");
         }
 
-        File mainjava = new File("/Users/maximkorchagin/Documents/Games/src/main/Main.java");
+        File mainJava = new File("/Users/maximkorchagin/Documents/Games/src/main/Main.java");
         try {
-            if (mainjava.createNewFile())
+            if (mainJava.createNewFile())
                 sb.append("Файл Main.java был создан\n");
         }
         catch (IOException e) {
@@ -66,9 +66,9 @@ public class Main {
             sb.append("Создана директория icons в подкаталоге res\n");
         }
 
-        File temptxt = new File("/Users/maximkorchagin/Documents/Games/temp/temp.txt");
+        File tempTxt = new File("/Users/maximkorchagin/Documents/Games/temp/temp.txt");
         try {
-            if (temptxt.createNewFile())
+            if (tempTxt.createNewFile())
                 sb.append("Файл temp.txt был создан\n");
         }
         catch (IOException e) {
